@@ -9,6 +9,9 @@ liquibase:
 spring:
     profiles:
         active: prod
+    redis:
+        host: localhost
+        port: 6379
     
 metrics:
     jmx.enabled: true
